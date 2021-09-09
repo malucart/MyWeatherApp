@@ -14,7 +14,7 @@ MyWeatherApp
 Simple app that shows me temperature, sensation ("feels like"), and humidity of a city that I choose to search.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Weather App
 - **Mobile:** Mobile is a good option for this kind of app because of the mobility and easy layout.
 - **Market:** No market. It's just a personal app from scratch to search for a specific weather of a city.
@@ -23,8 +23,6 @@ Simple app that shows me temperature, sensation ("feels like"), and humidity of 
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
-
-**Required Must-have Stories**
 
 * [ ] Splash screen
 * [ ] Welcome screen

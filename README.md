@@ -4,10 +4,7 @@ MyWeatherApp
 ## Table of Contents
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
-3. [Wireframes](#Wireframes)
-5. [Networking](#Network)
-6. [Animation](#Animation)
-7. [API](#API)
+3. [Digital Wireframes](#Wireframes)
 
 ## Overview
 ### Description
@@ -24,11 +21,11 @@ Simple app that shows me temperature, sensation ("feels like"), and humidity of 
 
 ### 1. User Stories (Required and Optional)
 
-* [ ] Splash screen
+* [x] Splash screen
 * [ ] Welcome screen
 * [ ] Main screen that shows temperature, sensation and humidity.
 
-### 2. Screen Archetypes
+### 2. Screen Archetypes 
 
 * Splash Screen with a brand
 * Welcome Screen

@@ -1,18 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!-- toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@color/mainBlue"
+        android:minHeight="?attr/actionBarSize"
+        android:tint="@color/white"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+        <!-- brand -->
+        <ImageView
+            android:id="@+id/ivBrand"
+            android:layout_marginStart="10dp"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo" />
+        <!-- logout button -->
+        <Button android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="280dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:text="@string/log_out"/>
+    </androidx.appcompat.widget.Toolbar>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <!-- write the name of the city -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:textSize="16sp"
+            android:textColor="@color/mainBlue"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/textField"
+            android:autofillHints=""
+            tools:ignore="LabelFor" />
+
+        <!-- search icon -->
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/search"
+            android:id="@+id/ivSearch"
+            tools:ignore="OnClick"
+            android:contentDescription="@string/searchicon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- celsius temperature -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/temperature"
+            android:textColor="@color/mainBlue"
+            android:textSize="40sp"
+            android:id="@+id/tvCelsius"
+            />
+
+        <!-- feels like a specific temperature -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/feels_like"
+            android:textColor="@color/mainBlue"
+            android:textSize="20sp"
+            android:id="@+id/tvFeelsLike"
+            />
+
+        <!-- humidity -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/humidity"
+            android:textSize="20sp"
+            android:id="@+id/tvHumidity"
+            android:textColor="@color/mainBlue"/>
+    </LinearLayout>
+</LinearLayout>

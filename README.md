@@ -22,7 +22,7 @@ Simple app that shows me temperature, sensation ("feels like"), and humidity of 
 ### 1. User Stories (Required and Optional)
 
 * [x] Splash screen
-* [ ] Welcome screen
+* [x] Welcome screen
 * [ ] Main screen that shows temperature, sensation and humidity.
 
 ### 2. Screen Archetypes 

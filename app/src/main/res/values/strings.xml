@@ -4,4 +4,11 @@
     <string name="let_s_check_it_out">Let\'s check it out!</string>
     <string name="go">Go!</string>
     <string name="howIsToday">How is Today?</string>
+    <string name="logo">Logo</string>
+    <string name="log_out">Log Out</string>
+    <string name="temperature">Temperature</string>
+    <string name="searchicon">SearchIcon</string>
+    <string name="humidity">Humidity</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="error">City not found. Also, you can put the first name as a city, comma, and then country. Example - London, GB or New York, US.</string>
 </resources>

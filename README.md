@@ -34,10 +34,10 @@ Simple app that shows temperature, sensation ("feels like"), and humidity of a c
 * Main Screen
     * It shows temperature, sensation and humidity
 
-### 3. Digital Wireframes
+## 3. Digital Wireframes
 <img src="https://github.com/malucart/MyWeatherApp/blob/main/luizaWeatherApp.png" width=600>
 
-### [BONUS] Interactive Prototype
+## [BONUS] Interactive Prototype
 <img src="https://github.com/malucart/MyWeatherApp/blob/main/weatherapp.gif">
 
 P.S.: This is the link that you can search for places directly through the API website: https://openweathermap.org/find

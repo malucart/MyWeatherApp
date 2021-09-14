@@ -34,7 +34,7 @@ Simple app that shows temperature, sensation ("feels like"), and humidity of a c
 * Main Screen
     * It shows temperature, sensation and humidity
 
-## 3. Digital Wireframes
+## Digital Wireframes
 <img src="https://github.com/malucart/MyWeatherApp/blob/main/luizaWeatherApp.png" width=600>
 
 ## [BONUS] Interactive Prototype
